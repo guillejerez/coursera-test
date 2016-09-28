@@ -29,7 +29,13 @@ function ShoppingListCheckOffService() {
   var tobuyList = [{name: 'cookies',
                     quantity: 10},
                     {name: 'sodas',
-                    quantity: 5}];
+                    quantity: 5},
+                    {name: 'apples',
+                    quantity: 2},
+                    {name: 'burgers',
+                    quantity: 3},
+                    {name: 'ice creams',
+                    quantity: 4}];
   var boughtList = [];
 
   service.getToBuyList = function () {
